@@ -2,7 +2,7 @@ import random
 
 def get_choices():
     player_choice = input("Enter your choice (rock, paper, scissors): ").lower()
-    if not player_choice in ("rock", "paper", "Scissors"):
+    if not player_choice in ("rock", "paper", "scissors"):
         print("Invalid input!")
         quit()
     else:
